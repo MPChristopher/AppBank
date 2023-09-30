@@ -1,0 +1,133 @@
+$Gris: #262F40;
+$Celeste: #66F2E4;
+$Blanco:#FFFFFF;
+
+  ion-content {
+    --background: #262F40;
+    --color: #FFFFFF;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .wrap-content{
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .wrap-content > h1{
+    font-size: 2rem;
+  }
+  .wc-person{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    box-shadow: 0px 2px 3px 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .wc-person > ion-icon{
+    font-size: 6rem;
+  }
+  .wrap-content > h2{
+    margin-top: 2rem;
+  }
+
+  .wc-desc > ion-icon{
+    margin-right: 0.5rem;
+    color: #66F2E4;
+  }
+.menu-horizontal {
+  background-color: #262F40;
+  width: 100%;
+  box-sizing: border-box; 
+  position: relative;
+  margin: 0.5rem;
+}
+
+.menu-horizontal ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.menu-horizontal li {
+  margin: 0;
+  text-align: center;
+  flex: 1;
+}
+
+.menu-horizontal a {
+  display: block;
+  padding: 1rem ;
+  color: white;
+  text-decoration: none;
+  border-bottom: 5px solid gray;
+  transition: border-color 0.4s;
+  position: relative;
+}
+.menu-horizontal a:hover {
+  border-color: #66F2E4;
+}
+.CARD{
+  background-color: #283042;
+  box-shadow: 0px 2px 3px 3px;
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 15%;
+}
+.Tit-CARD{
+  padding-bottom: 1rem;
+  margin: 0;
+}
+.CARD-T{
+  text-align: right;
+  margin: 0;
+}
+.right-align {
+    background-color: #66F2E4;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 0.5rem;
+    text-align: right; 
+    display: inline-block; 
+  }
+.NUMCARD{
+  color: #66F2E4;
+}
+.Nombre_C{
+  color: #FFFFFF;
+} 
+.Columnas-INF{
+  columns: 2;
+  padding: 0;
+}
+.INF-Card{
+  color: #66F2E4;
+}
+h3{
+  color:#FFFFFF;
+}
+.ion-color-primary {
+  width: 95%; 
+  margin: 0 auto; 
+  border-radius: 7px;
+  box-shadow: 0px 2px 3px 3px;
+}
+ion-list ion-item {
+  --background: #283042;
+  color: #FFFFFF;
+}
+.List-R{
+  text-align: right;  
+}

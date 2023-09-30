@@ -1,0 +1,152 @@
+ion-content {
+    --background: #262F40;
+    --color: #FFFFFF;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .wrap-content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-left: 2rem;
+
+  }
+  
+  .wrap-content > h1 {
+    font-size: 2rem;
+  }
+  
+  .wc-person {
+    display: flex;
+    align-items: center;
+  }
+
+  .icono-per{
+    box-shadow: 0px 2px 3px 3px;
+    border-radius: 50%;
+  }
+  
+  .wc-person > ion-icon {
+    font-size: 4rem;
+    margin-right: 1rem; 
+  }
+  
+  .wrap-content > h2 {
+    margin-top: 2rem;
+  }
+  
+  .wc-desc > ion-icon {
+    margin-right: 0.5rem;
+    color: #66F2E4;
+  }
+  
+  .text-Icon {
+    margin: 0;
+    text-align: left;
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start; 
+  }
+  
+  .text-Icon h2, .text-Icon h3 {
+    margin: 0; 
+  }
+  .Card{
+    margin-top: 2rem;
+    background-color: #283042;
+    box-shadow: 0px 2px 3px 3px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .Icon-card{
+    text-align: right;
+    font-size: 2rem;
+    color: #FFFFFF;
+    
+  }
+  .Text-Card{
+    text-align: center;
+    color: #66F2E4;
+  }
+  .botones{
+    width: 60px; 
+    display: flex;
+    display: inline-block;
+    align-items: center; 
+    cursor: pointer;  
+    padding-right: 6rem; 
+    position: relative;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+  }
+  .botones > ion-button{
+    --background: #283042;
+    box-shadow: 0px 2px 3px 3px;
+    position: relative; 
+    justify-content: center;
+    align-items: center;    
+    margin: 0;
+    padding: 0;
+  }
+  .botones > ion-button > ion-icon {
+    font-size: 3rem;
+    border-radius: 50%;
+    color: #66F2E4;
+  }
+  .centered-circular-div {
+    width: 15rem; 
+    height: 15rem; 
+    border: 5px solid #66F2E4;
+    align-items: center;
+    box-shadow: 0px 2px 3px 3px;
+    border-radius: 50%; 
+    margin: 10px auto; 
+    text-align: center; 
+    background-color:  #283042; 
+    color: #FFFFFF;
+    margin-bottom: 1.5rem;
+  }
+  
+  .centered-circular-div h1 {
+    padding-top: 3.5rem;
+    font-size: 4rem; 
+    margin: 0; 
+  }
+  
+  .centered-circular-div h2 {
+    font-size: 18px;
+    margin: 5px 0; 
+    color: #66F2E4;
+  }
+  .Contenedor-Dolar{
+    columns: 2;
+  }
+  .Contenedor-Dolar>ion-card{
+    --background: #283042;
+    box-shadow: 0px 2px 3px 3px;
+    padding: 1rem;
+  
+
+  }
+  .Contenedor-Dolar>ion-card>ion-card-content>ion-button{
+    --background: #66F2E4;
+    color: black;
+  }
+  .Col-Txt{
+    color: #FFFFFF;
+    padding-bottom: 1rem;
+  }
+  
+  
+
+
+  

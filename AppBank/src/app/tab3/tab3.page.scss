@@ -1,0 +1,87 @@
+ion-content {
+    --background: #262F40;
+    --color: #FFFFFF;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .wrap-content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-left: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .wrap-content > h1 {
+    font-size: 2rem;
+  }
+  
+  .wc-person {
+    display: flex;
+    align-items: center;
+  }
+
+  .icono-per{
+    box-shadow: 0px 2px 3px 3px;
+    border-radius: 50%;
+  }
+  
+  .wc-person > ion-icon {
+    font-size: 4rem;
+    margin-right: 1rem; 
+  }
+  
+  .wrap-content > h2 {
+    margin-top: 2rem;
+  }
+  
+  .wc-desc > ion-icon {
+    margin-right: 0.5rem;
+    color: #66F2E4;
+  }
+  
+  .text-Icon {
+    margin: 0;
+    text-align: left;
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start; 
+  }
+  
+  .text-Icon h2, .text-Icon h3 {
+    margin: 0; 
+  }
+
+  .Imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .Imagen img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .div-dol{
+    
+  }
+  #arrow-up{
+    font-size: 2rem;
+    background-color: #283042;
+    border-radius: 50%;
+    box-shadow: 0px 2px 3px 3px;
+    width: 2rem; 
+    height: 2rem; 
+  }
+  
